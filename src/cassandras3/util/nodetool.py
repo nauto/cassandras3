@@ -4,7 +4,7 @@ import sh
 
 logger = logging.getLogger('cassandras3')
 
-CASSANDRA_DATA_DIR = '/var/lib/cassandra/data'
+CASSANDRA_DATA_DIR = '/var/lib/scylla/data'
 
 
 class NodeTool(object):
